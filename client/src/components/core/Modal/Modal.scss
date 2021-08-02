@@ -1,0 +1,16 @@
+.modal-backdrop {
+    background: #000000 0% 0% no-repeat padding-box;    
+    opacity: 0.9 !important;
+}
+.modal {
+    width: 100% !important;  
+}
+.modal-content {
+    width: 30%;
+}
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    transform: none;
+}

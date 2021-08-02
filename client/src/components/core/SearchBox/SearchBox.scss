@@ -1,0 +1,27 @@
+.search-box {
+    position: relative;
+    .icon-wrap {
+        position: absolute;
+        top: 12px;
+        left: 26px;
+        width: 18px;
+        height: 18px;
+        .icon {
+            font-size: 20px;
+            color: #888888;
+        }
+    }
+    .input {
+        width: 948px;
+        height: 51px;
+        background: #ECEDEF 0% 0% no-repeat padding-box;
+        border-radius: 26px;
+        padding: 0 0 0 62px;
+        opacity: 1;
+        border: 0;
+    }
+    .popup-input {
+        width: 698px; 
+        background-color: white; 
+    }
+}

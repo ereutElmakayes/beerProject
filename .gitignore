@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+package-lock.json
+
+# IDE - VSCode
+.vscode/
+
+# misc
+.prettierrc
+.env
+.eslintrc.js
+
+# build
+dist/
+
+# docker
+*/docker/target/
+*/hc-admin/docker/target/

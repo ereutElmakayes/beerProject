@@ -1,0 +1,31 @@
+.beer-item{
+    width: 17%;
+    margin-right: 3%;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    position: relative;
+    .details-row{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        .image-item{
+            height: 150px;
+            width: auto;
+        }
+        .star-icon{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            height: 25px;
+            width: auto;
+            cursor: pointer;
+        }
+        .summary{
+            border-top: 1px solid black;
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+}
