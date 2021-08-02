@@ -21,8 +21,12 @@ const MyBeer = (props: MyBeerProps) => {
         setSearchInput(event.target.value)
     }
     const search = () => {
-        if(searchInput && searchInput != '')
+        if(searchInput && searchInput != ''){
         dispatch(searchBeers(searchInput));
+        }
+        else{
+            dispatch(getBeers())
+        }
     }
     const handlePageChange = (page: number) => {
         dispatch(updateActivePage(page));
