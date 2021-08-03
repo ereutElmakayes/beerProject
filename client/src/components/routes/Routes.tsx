@@ -7,7 +7,6 @@ import BeerPopup from "../content/BeerPopup/BeerPopup";
 
 const Routes = () => {
 
-    // const {  showBeerPopup } = useSelector((state: any) => state.main)
     const {  isOpen } = useSelector((state: any) => state.modal)
     return (
         <div className="page">

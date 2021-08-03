@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { BeerItem } from '../../entities/BeerItem';
-//import { ContentItem, MediaItem, BeerItem, SefariaLink } from 'hc-entities';
 
 
 

@@ -7,7 +7,7 @@ export const UPDATE_BEER = "UPDATE_BEER";
 export const GET_FAVORITE_BEERS = "GET_FAVORITE_BEERS";
 export const UPDATE_BEER_POPUP = "GET_FAVORITE_BEERS";
 export const REMOVE_ALL_BEERS= "REMOVE_ALL_BEERS";
-export const UPDATE_ACIVE_PAGE= "UPDATE_ACIVE_PAGE"
+export const UPDATE_ACTIVE_PAGE= "UPDATE_ACTIVE_PAGE"
 
 
 
@@ -68,5 +68,5 @@ export const removeAllFavoriteBeers = (beers : BeerItem[]) => {
     return {type: REMOVE_ALL_BEERS , value :[..._beers] }
 }  
 export const updateActivePage = (page: number) => {
-    return {type: UPDATE_ACIVE_PAGE , value :page }
+    return {type: UPDATE_ACTIVE_PAGE , value :page }
 } 

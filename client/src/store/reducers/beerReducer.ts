@@ -1,6 +1,6 @@
 
 import { BeerItem } from '../../entities/BeerItem';
-import { GET_BEERS, GET_FAVORITE_BEERS, UPDATE_BEER_POPUP, UPDATE_BEER, REMOVE_ALL_BEERS, UPDATE_ACIVE_PAGE } from '../actions/beerAction';
+import { GET_BEERS, GET_FAVORITE_BEERS, UPDATE_BEER_POPUP, UPDATE_BEER, REMOVE_ALL_BEERS, UPDATE_ACTIVE_PAGE } from '../actions/beerAction';
 
 
 const initialState:beerReducerState = {
@@ -40,7 +40,7 @@ const beerReducer = (state = initialState, action: any) => {
                     beers : action.value,
                     favoriteBeers: []
                  }
-                 case UPDATE_ACIVE_PAGE:
+                 case UPDATE_ACTIVE_PAGE:
                     return {
                         ...state,
                         activePage : action.value,
